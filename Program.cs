@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Bot bot = new Bot("6794432777:AAFdDGADNcZOiQoEVJtAg19nPbIyDQXYdYU");
+            bot.StartBot();
         }
     }
 }
